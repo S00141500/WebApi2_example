@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Web_API_2-20150623055002.mdf;Initial Catalog=aspnet-Web_API_2-20150623055002;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\mark\\APPS\\Web_API_2\\Web_API_2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Web_API_2Context-Web.config Connection String" description="Web_API_2Context Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=Web_API_2Context-20150623182041; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|Web_API_2Context-20150623182041.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\mark\\APPS\\Web_API_2\\Web_API_2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Web_API_2Context']/@connectionString" />
+  </parameter>
+</parameters>
